@@ -1,0 +1,143 @@
+*{overflow: auto;}
+body{ 
+    background-color: #B1A781 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+div.line{
+    height: 1px;
+    width: 100px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+p.Recepie {
+    background-color:black; color: white;
+    display: inline-block;
+    padding: 7px  20px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+div.Recepie{
+    margin-bottom: 0px ;
+    overflow: visible;
+}
+div.content{
+    background-color: white;
+    margin: 70px 10% 100px 10%;
+    padding: 0px 30px 30px 30px; 
+    min-width: 340px;
+    box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+}
+
+h1 {
+    text-align: center ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p.wlcm{
+    text-align: center;
+    display: inline;
+    font-size: large;
+}
+div.ImgInfo{
+    position: relative;
+    
+}
+table.ImgInfo{
+    position:absolute ;
+    bottom: 0 ; 
+    width: 100% ; 
+    color: white; 
+    background-color: #E3CEABC0;
+    height: 70px;  
+}
+table.ImgInfo td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 15px;
+    padding: 3px;
+    
+}
+table.ImgInfo th{
+    vertical-align: bottom;
+    font-size: 18px;
+}
+img.Image{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightcoral;
+}
+
+div.H2 {
+    width: 45%;
+    overflow: auto;
+}
+
+.H2 h2{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: #B1A781C0 solid 5px;
+}
+
+div.T1{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.T2{
+    float: right;
+}
+
+div.Ingre p{
+    text-align: center;
+    padding: 3px;
+    border:#E3CEABC0 solid 2px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+div.Teps p{
+    text-align: center;
+    padding: 3px;
+    border:#E3CEABC0 solid 2px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+
+table.Instru td{
+    vertical-align: top;
+    font-size: 16px;
+    font-style:inherit;
+}
+table.Instru p.Num{
+    background-color: #B1A781A0;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}
+table.Instru td.Info{
+    padding: 5px;
+    padding-left: 70px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+table.Instru tr{
+    height: 10px;
+}
