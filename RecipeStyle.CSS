@@ -12,8 +12,7 @@ div.line{
     width: 100px;
     background-color:black;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 p.Recepie {
     background-color:black; color: white;
@@ -93,9 +92,6 @@ div.T1{
     display: inline-block;
 }
 
-div.T2{
-    /*float: right;*/
-}
 
 div.Ingre p{
     text-align: center;
@@ -167,6 +163,8 @@ table.Instru tr{
         float: right;
     }
 }
+
+
 /*For large screen*/
 @media only screen and (min-width: 825px) {
     div.content{
